@@ -1,7 +1,9 @@
+import { RouteMain } from './routes/RouteMain'
+
 export const AppTask = () => {
   return (
-    <div>
-      <h2>AppTask</h2>
+    <div className="font-oswald">
+      <RouteMain />
     </div>
-  );
-};
+  )
+}
